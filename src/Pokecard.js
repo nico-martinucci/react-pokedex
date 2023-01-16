@@ -12,7 +12,7 @@ function Pokecard({ pokemon }) {
   const { id, name, type, base_experience } = pokemon;
   return (
     <div className='Pokecard'>
-      <h1 className='Pokecard-name'>{ name }</h1>
+      <h3 className='Pokecard-name'>{ name }</h3>
       <img
         className='Pokecard-img'
         src={`${POKEMON_IMAGE_BASE_URL}${id}.png`}

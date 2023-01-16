@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 
 function App() {
   return (
-    <Pokedex pokemans={[
+    <Pokegame pokemans={[
       {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
       {id: 7,   name: 'Squirtle',   type: 'water',    base_experience: 63},
       {id: 11,  name: 'Metapod',    type: 'bug',      base_experience: 72},
