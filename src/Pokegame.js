@@ -1,4 +1,5 @@
 import Pokedex from "./Pokedex";
+import "./Pokegame.css"
 import { assignRandomHands, calcWinningHand } from "./helpers";
 
 /**
@@ -12,7 +13,7 @@ function Pokegame({ pokemans }) {
     const gameResults = calcWinningHand(handOne, handTwo)
 
     return (
-        <div>
+        <div className="Pokegame">
             <h2>Hand One:</h2>
             <Pokedex pokemans={ handOne } isWinner={ gameResults.handOneWin }/>
             <h2>Hand Two:</h2>

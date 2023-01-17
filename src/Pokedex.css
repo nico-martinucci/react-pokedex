@@ -1,3 +1,16 @@
+.Pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Pokedex-hand {
     display: flex;
+    gap: 10px;
+}
+
+.Pokedex-win-msg {
+    font-size: 2em;
+    font-weight: bold;
+    color: rebeccapurple;
 }
